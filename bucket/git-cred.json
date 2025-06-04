@@ -1,0 +1,36 @@
+{
+    "version": "1.0",
+    "description": "Alias to 'git config credential.namespace'",
+    "homepage": "https://github.com/aoi-szmy/git-cred",
+    "license": "CC0-1.0",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-amd64.exe",
+            "hash": "ff08be952ea896dbfa4cc23394e7255607477271ad43197b84db0a2f2d2678f0"
+        },
+        "32bit": {
+            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-x86.exe",
+            "hash": "6da1c7b02bde32ea6b8efb18d3dee98bc7ec56fe7c0b0d542f1255f206d33cba"
+        },
+        "arm64": {
+            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-arm64.exe",
+            "hash": "7749b2ea4440baf6c2f6b2068801b7cdfb5652934bade1d7923494110d732885"
+        }
+    },
+    "bin": "git-cred.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aoi-szmy/git-cred/releases/download/v$version/git-cred-amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/aoi-szmy/git-cred/releases/download/v$version/git-cred-x86.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/aoi-szmy/git-cred/releases/download/v$version/git-cred-arm64.exe"
+            }
+        }
+    }
+}
