@@ -6,16 +6,16 @@
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-amd64.exe",
-            "hash": "d86cc6538557afdc41e9f8a68c3b7178b646f23d6f6bc060ee955fc4ded9b763"
+            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-1.0-win_amd64.zip",
+            "hash": "fcb3f28c1fe87e89728b42eb8efd91abe88192a82745c1171ff85388c5b4f4d5"
         },
         "32bit": {
-            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-x86.exe",
-            "hash": "6da1c7b02bde32ea6b8efb18d3dee98bc7ec56fe7c0b0d542f1255f206d33cba"
+            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-1.0-win_386.zip",
+            "hash": "a249a72c119383618edb069a8bf3a109ec301f8fc3e472da1cead717cb4c8e1c"
         },
         "arm64": {
-            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-arm64.exe",
-            "hash": "7749b2ea4440baf6c2f6b2068801b7cdfb5652934bade1d7923494110d732885"
+            "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-1.0-win_arm64.zip",
+            "hash": "1caeb8d05cb35a3d5a02dd0b0e110a4f7a674d724d0e540bddf5d84db01366ca"
         }
     },
     "bin": "git-cred.exe",
@@ -23,13 +23,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aoi-szmy/git-cred/releases/download/v$version/git-cred-amd64.exe"
+                "url": "https://github.com/aoi-szmy/git-cred/releases/download/$version/git-cred-$version-win_amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/aoi-szmy/git-cred/releases/download/v$version/git-cred-x86.exe"
+                "url": "https://github.com/aoi-szmy/git-cred/releases/download/$version/git-cred-$version-win_386.zip"
             },
             "arm64": {
-                "url": "https://github.com/aoi-szmy/git-cred/releases/download/v$version/git-cred-arm64.exe"
+                "url": "https://github.com/aoi-szmy/git-cred/releases/download/$version/git-cred-$version-win_arm64.zip"
             }
         }
     }
