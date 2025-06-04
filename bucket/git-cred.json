@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-amd64.exe",
-            "hash": "ff08be952ea896dbfa4cc23394e7255607477271ad43197b84db0a2f2d2678f0"
+            "hash": "d86cc6538557afdc41e9f8a68c3b7178b646f23d6f6bc060ee955fc4ded9b763"
         },
         "32bit": {
             "url": "https://github.com/aoi-szmy/git-cred/releases/download/1.0/git-cred-x86.exe",
